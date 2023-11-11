@@ -1,25 +1,28 @@
-*,
-*:after,
-*:before{
+*{
     padding: 0;
     margin:0;
     box-sizing: border-box;
 }
 
+body{
+  height: 100vh;
+  background: linear-gradient( to right,
+   #7f53ac,
+    #657ced );
+}
+/*============================
+ pre-loader area start 
+=============================*/
 
 .loader{
- 
     position: fixed;
     top: 0;
     left: 0;
     background: url(./images/logo3.jpg) bottom;
     height: 100%;
     width: 100%;
-    
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
   }
   
   .loading{
@@ -29,9 +32,6 @@
     top:45%;
     left: 40%;
   }
-  
-  
-  
   
   .disppear{
     animation: vanish 11s forwards;
@@ -193,48 +193,34 @@
     }
   }
   
+/*============================
+     pre-loader area end 
+=============================*/
   
-  /* pre loader style */
-  /* pre loader style */
-  /* pre loader style */
 
 
-
-
-
-
-
-
-
-body{
-    height: 100vh;
-    background: linear-gradient( to right,
-     #7f53ac,
-      #657ced );
-}
 
 
 .center{
     margin-top: 25px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 
 .output2{
     margin-top: 25px;
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
+/* important place */
 .filter1{
      filter: blur(10px);
 } 
+/* important place */
 
 .box{
-  
     box-shadow: 22px 19px 5px 0px rgba(84,56,56,0.50);
     text-align: center;
     background-color: white;
@@ -265,17 +251,13 @@ body{
 }
 
 
-
-
 .heading{
     text-align: center;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;   
     font-family: 'DM Serif Display', serif;
     font-size: 45px;
-    color: darkcyan;
-
-   
+    color: darkcyan; 
 }
 
 
@@ -392,23 +374,6 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 
-.typing2{
-    margin-top: 15px;
-    font-size: 35px;
-    font-family: 'Indie Flower', cursive;
-}
-
-.typing3{
-    margin-top: 15px;
-    font-size: 35px;
-    font-family: 'Indie Flower', cursive;
-}
-
-.typing4{
-    margin-top: 15px;
-    font-size: 35px;
-    font-family: 'Indie Flower', cursive;
-}
 
 /* close part here */
 .close5{
@@ -437,32 +402,7 @@ body{
     color: white;
 }
 
-.close2{
-    margin-top: -15px;
-    margin-left: -40px;   
-    font-size: 40px;
-    width: 83px;
-    height: 80px;  
-    color: white;
-}
 
-.close3{
-    margin-top: -15px;
-    margin-left: -40px;   
-    font-size: 40px;
-    width: 83px;
-    height: 80px;  
-    color: white;
-}
-
-.close4{
-    margin-top: -15px;
-    margin-left: -40px;   
-    font-size: 40px;
-    width: 83px;
-    height: 80px;  
-    color: white;
-}
 
 /* close part here */
 /* output2 part here */
@@ -525,7 +465,6 @@ body{
     color: #ffffff;
     
 }
-
 
 
 .tik{
