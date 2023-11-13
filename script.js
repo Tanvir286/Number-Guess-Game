@@ -289,7 +289,7 @@ twobutton.addEventListener("click", function () {
     }
 
      else{
-           if(a >= 1){
+           if(a > 1){
             a--;
             remaning.innerHTML = a; 
             if(list[0] == twoinput.value){
@@ -373,7 +373,7 @@ threebutton.addEventListener('click',function(){
     }
 
      else{
-           if(b >= 1){
+           if(b > 1){
             b--;
             remaning.innerHTML = b; 
             if(list[0] == threeinput.value){
@@ -458,7 +458,7 @@ fourbutton.addEventListener('click',function () {
     }
 
     else{
-        if(c >= 1){       
+        if(c > 1){       
             c--;
             remaning.innerHTML = c; 
             if(list[0] == fourinput.value){
